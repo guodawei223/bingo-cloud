@@ -1,0 +1,15 @@
+spring:
+  application:
+    name: bingo-cmdb
+  cloud:
+    client:
+      ipAddress: localhost
+    config:
+      label: master
+      profile: dev
+      discovery:
+        enabled: false
+        service-id: bingo-config
+      #uri: http://localhost:8888/
+server:
+  port: 8762

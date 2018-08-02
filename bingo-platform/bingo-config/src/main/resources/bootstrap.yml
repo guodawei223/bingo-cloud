@@ -1,0 +1,8 @@
+spring:
+  application:
+    name: bingo-config
+  cloud:
+    config:
+      label: master
+      profile: dev
+      url: http://localhost:8888/

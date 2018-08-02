@@ -1,0 +1,8 @@
+spring:
+  application:
+    name: bingo-lb
+  cloud:
+    client:
+      ipAddress: localhost
+server:
+  port: 8760
